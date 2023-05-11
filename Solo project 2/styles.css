@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a8dadc;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1D2950;
+    height: 400px;
+    width: 650px;
+    border-radius: 20px;
+}
+
+.scoreCounterHome, .scoreCounterGuest {
+    background: #080001;
+    color: #F94F6D;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px; 
+    border-radius: 5px;
+}
+
+.btnContainer {
+    margin-top: 25px;
+    width: 155px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btns {
+    width: 45px;
+    height: 45px;
+    background: #1D2950;
+    border: #9AABD8 2px solid;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+h3{
+    width: 149px;
+    height: 36px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.adds {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.newgame, .timer {
+    width: 130px;
+    height: 40px;
+    background: #1D2950;
+    border: #9AABD8 2px solid;
+    color: #fb8500;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.timer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding-top: 5px;
+    color: #ffffff;
+}
+
+
